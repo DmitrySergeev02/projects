@@ -1,0 +1,25 @@
+{
+    "name": "cv_pkg",
+    "dockerComposeFile": [ "../../docker-compose.yml" ],
+    "service": "cv_pkg",
+    "runServices": [ "cv_pkg" ],
+    "workspaceFolder": "/home/user/cv_pkg",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.defaultProfile.linux": "bash",
+                "terminal.integrated.profiles.linux": { "bash": { "path": "/usr/bin/bash" } },
+                "terminal.integrated.cwd": "/home/user/cv_pkg"
+            },
+            "extensions": [
+                "ms-python.python",
+                "charliermarsh.ruff",
+                "KevinRose.vsc-python-indent",
+                "oderwat.indent-rainbow",
+                "tamasfe.even-better-toml",
+                "ms-azuretools.vscode-docker",
+                "DavidAnson.vscode-markdownlint"
+            ]
+        }
+    }
+}
